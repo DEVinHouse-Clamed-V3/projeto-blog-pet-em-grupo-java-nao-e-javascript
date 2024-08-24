@@ -1,0 +1,119 @@
+/*=============================================================css da pagina post.html=================================================================*/
+
+/* Estilizante Corpo */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4;
+}
+
+/* Estilizante Cabeçalho */
+.container-header {
+  background-color: blue; /* Azul natural */
+  padding: 5px;
+  text-align: center;
+}
+
+/*Estilizante Titulo do Cabeçaho */
+.container-header h1 {
+  color: #fff; /* Texto branco para o título */
+  margin: 0;
+  font-size: 2.5em;
+}
+
+/* EStilizante Container do Post */
+.container {
+  width: 80%;
+  max-width: 800px;
+  margin: 20px auto;
+  padding: 20px;
+  background: #fff;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+   
+/* Estilzante Container */
+.container img {
+  width: 50%;
+  height: auto;
+  border-radius: 8px;
+  margin-bottom: 20px;
+}
+
+/* Estilizante Titulo Container h2 */
+.container h2 {
+  margin: 20px 0;
+  font-size: 2em;
+}
+
+/* Estilizante Paragrafo */
+.container p {
+  font-size: 1em;
+  line-height: 1.6;
+  margin: 20px 0;
+  text-align: justify;
+}
+
+/* Estilizante Rodapé */
+footer {
+  padding: 10px;
+  background: blue; /* Azul natural */
+  color: #fff; /* Texto branco no rodapé */
+  text-align: right;
+  width: 100%;
+  position: auto;
+  bottom: 0;
+  box-sizing: border-box;
+}
+
+footer p {
+  text-align: right;
+  margin: 0 50px;
+}
+
+/*=================================================================================================================================================*/
+
+                                                        /*css da pagina_erro_404*/    
+
+/* Estilização do corpo */
+body-pagina-erro {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  color: red;
+  text-align: center;
+  display:block;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+}
+
+/* Estilização do container principal */
+.container-pagina-erro {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+/* Estilização do conteúdo */
+.content-pagina-erro{
+  background-color: #fff;
+  padding: 40px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Estilização do botão */
+.home-button-pagina-erro {
+  display: inline-block;
+  padding: 10px 20px;
+  font-size: 16px;
+  color: #fff;
+  background-color: #3498db;
+  text-decoration: none;
+  border-radius: 5px;
+}
+/*Estilizante Botão Voltar Pagina Inicial*/
+.home-button-pagina-erro:hover {
+  background-color: blue;
+}
