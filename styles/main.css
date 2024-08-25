@@ -32,8 +32,8 @@ h1 {
     margin-bottom: 5px;
 }
 
-.form-group input, 
-.form-group textarea, 
+.form-group input,
+.form-group textarea,
 .form-group select {
     width: 100%;
     padding: 8px;
@@ -75,11 +75,14 @@ table {
     margin-top: 20px;
 }
 
-table, th, td {
+table,
+th,
+td {
     border: 1px solid #b3d1ff;
 }
 
-th, td {
+th,
+td {
     padding: 10px;
     text-align: center;
 }
@@ -103,5 +106,13 @@ button.delete-btn:hover {
 }
 
 
-/* CSS menu */
+.header-criarConta {
+    background-color: #005bb5;
+    width: 100%;
+}
 
+.header-criarConta h1 {
+    color: white;
+}
+
+/* CSS menu */

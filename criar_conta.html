@@ -1,11 +1,63 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles/CriarContastyle.css" />
     <title>Document</title>
-</head>
-<body>
-    
-</body>
+  </head>
+  <body>
+    <div class="container-menu">
+      <div class="container">
+        <div class="cadastro">
+          <h3>Criar conta</h3>
+        </div>
+
+        <form id="postForm" action="" class="form-input">
+          <div class="container-img">
+            <img src="" alt="" id="foto-usuario" />
+          </div>
+          <div class="div-input">
+            <label for="foto">URL da foto</label>
+            <input type="url" name="foto" id="foto" />
+            <span id="error-foto"></span>
+          </div>
+          <div class="div-input">
+            <label for="nome">nome</label>
+            <input type="nome" id="nome" name="titulo" />
+            <span id="error-nome"></span>
+          </div>
+          <div class="div-input">
+            <label for="titulo">Email</label>
+            <input type="email" id="email" name="titulo" />
+            <span id="error-email"></span>
+          </div>
+          <div class="div-input">
+            <label for="senha">Senha</label>
+            <input type="password" id="senha" name="titulo" />
+            <span id="error-senha"></span>
+          </div>
+          <div class="div-input">
+            <label for="confirma-senha">Confirme a senha</label>
+            <input type="password" id="confirma-senha" name="titulo" />
+            <span id="error-confirma-senha"></span>
+          </div>
+          <div class="div-input">
+            <label for="descricao">Biografia</label>
+            <textarea id="descricao" name="descricao" rows="4"></textarea>
+            <span id="error-descricao"></span>
+          </div>
+          <div class="button-container">
+            <button class="button-submit" type="submit">SUBMIT</button>
+          </div>
+
+          <div class="container-voltar">
+            <a href="login.html"></a>
+            <p>Voltar para login</p>
+          </div>
+        </form>
+      </div>
+    </div>
+  </body>
+  <script src="scripts/cadastro_post.js"></script>
 </html>

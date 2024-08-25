@@ -1,51 +1,53 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Novo Post</title>
-    <link rel="stylesheet" href="styles/main.css">
-</head>
-<body>
-    
+    <link rel="stylesheet" href="styles/main.css" />
+  </head>
+  <body>
     <nav class="nav">
-        <ul>
-            <li><a href="cadastro_post.html">Criar Post</a>
-            <li><a href="listagem_post_admin.html">Listagem</a>
-        </ul>
+      <ul>
+        <li><a href="cadastro_post.html">Criar Post</a></li>
+        <li><a href="listagem_post_admin.html">Listagem</a></li>
+      </ul>
     </nav>
 
     <div class="container">
-        <h1>Novo Post</h1>
-        <form id="postForm">
-            <div class="form-group">
-                <label for="titulo">Título</label>
-                <input type="text" id="titulo" name="titulo" required>
-            </div>
+      <form id="postForm">
+        <div class="header-criarConta">
+          <h1>Novo Post</h1>
+        </div>
+        <div class="form-group">
+          <label for="foto">URL da Foto</label>
+          <input type="url" id="foto" name="foto" required />
+        </div>
+        <div class="form-group">
+          <label for="titulo">Email</label>
+          <input type="email" id="titulo" name="titulo" required />
+        </div>
+        <div class="form-group">
+          <label for="titulo">Senha</label>
+          <input type="password" id="titulo" name="titulo" required />
+        </div>
+        <div class="form-group">
+          <label for="titulo">Confirme a senha</label>
+          <input type="password" id="titulo" name="titulo" required />
+        </div>
+        <div class="form-group">
+          <label for="descricao">Biografia</label>
+          <textarea
+            id="descricao"
+            name="descricao"
+            rows="4"
+            required
+          ></textarea>
+        </div>
 
-            <div class="form-group">
-                <label for="descricao">Descrição</label>
-                <textarea id="descricao" name="descricao" rows="4" required></textarea>
-            </div>
-
-            <div class="form-group">
-                <label for="categoria">Categoria</label>
-                <select id="categoria" name="categoria" required>
-                    <option value="CÃES">CÃES</option>
-                    <option value="GATOS">GATOS</option>
-                    <option value="PÁSSAROS">PÁSSAROS</option>
-                    <option value="DIVERSOS">DIVERSOS</option>
-                </select>
-            </div>
-
-            <div class="form-group">
-                <label for="foto">URL da Foto</label>
-                <input type="url" id="foto" name="foto" required>
-            </div>
-
-            <button type="submit">Salvar Post</button>
-        </form>
+        <button type="submit">Salvar Post</button>
+      </form>
     </div>
     <script src="scripts/cadastro_post.js"></script>
-</body>
+  </body>
 </html>
