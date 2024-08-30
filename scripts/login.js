@@ -14,7 +14,7 @@ document.getElementById('loginForm').addEventListener('submit', function(event) 
 
     if (user) {
         // Redireciona para a tela "Home"
-        window.location.href = 'listagem_post_admin.html';
+        window.location.href = 'listagem.html';
     } else {
         // Exibe mensagem de erro
         errorMessage.textContent = 'Usuário ou senha incorretos.';
